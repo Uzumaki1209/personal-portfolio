@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kevin Pather - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center mb-4">
+            <img src="1600155046803.jpg" alt="Kevin Pather" class="img-fluid rounded-circle">
+            <h1 class="mt-3">Kevin Pather</h1>
+            <div class="contact-info">
+                <p>Johannesburg, GP, 2195</p>
+                <p>Phone: +27 83 230 1773</p>
+                <p>Email: tpather1@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/kevin-pather-02b933168/" class="btn btn-primary">LinkedIn</a></p>
+            </div>
+        </div>
+
+        <div class="section about" data-section="bio">
+            <h2 class="title">Bio</h2>
+            <div class="about-content">
+                <div class="left">
+                    <img src="1600155046803.jpg" alt="Kevin Pather">
+                </div>
+                <div class="right">
+                    <p>Motivated and detail-oriented Cyber Security Pre-sales consultant with over 4 years of experience in vulnerability assessment, compliance scanning, and cybersecurity threat mitigation. Proven track record in developing and enhancing security protocols, employing state-of-the-art vulnerability assessment tools, and leading dynamic application security testing initiatives.</p>
+                    <p>Highly motivated to learn, grow and excel in the Cybersecurity industry and constantly strive to expand my knowledge through self-study.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section skills" data-section="skills">
+            <h2 class="title">Skills and Competencies</h2>
+            <ul class="list-group">
+                <li class="list-group-item" data-item="Designing security controls">Designing security controls</li>
+                <li class="list-group-item" data-item="Expertise in vulnerability assessment tools (Nexpose, Nessus)">Expertise in vulnerability assessment tools (Nexpose, Nessus)</li>
+                <li class="list-group-item" data-item="Developing security plans">Developing security plans</li>
+                <li class="list-group-item" data-item="Data security">Data security</li>
+                <li class="list-group-item" data-item="Analytical and Critical Thinking">Analytical and Critical Thinking</li>
+                <li class="list-group-item" data-item="Cultural Awareness">Cultural Awareness</li>
+                <li class="list-group-item" data-item="Multitasking Abilities">Multitasking Abilities</li>
+                <li class="list-group-item" data-item="Implementing security programs">Implementing security programs</li>
+            </ul>
+        </div>
+
+        <div class="section education" data-section="education">
+            <h2 class="title">Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item" data-item="Matriculation / Grade 12, Sandown High, Johannesburg, 2008">Matriculation / Grade 12, Sandown High, Johannesburg, 2008</li>
+                <li class="list-group-item" data-item="Business Management Certificate, Damelin, Gauteng, 2014">Business Management Certificate, Damelin, Gauteng, 2014</li>
+                <li class="list-group-item" data-item="CompTIA Security+, IT Academy, Johannesburg, 2021">CompTIA Security+, IT Academy, Johannesburg, 2021</li>
+                <li class="list-group-item" data-item="CompTIA Cybersecurity Analyst+, IT Academy, Johannesburg, 2021">CompTIA Cybersecurity Analyst+, IT Academy, Johannesburg, 2021</li>
+                <li class="list-group-item" data-item="AWS Certified Solutions Architect Associate, IT Academy, Johannesburg, 2021">AWS Certified Solutions Architect Associate, IT Academy, Johannesburg, 2021</li>
+                <li class="list-group-item" data-item="Certified Information Systems Security Professional (CISSP), IT Academy, Johannesburg, 2022-2023">Certified Information Systems Security Professional (CISSP), IT Academy, Johannesburg, 2022-2023</li>
+                <li class="list-group-item" data-item="Multiple Tenable and Fortinet Certifications, Tenable University and Fortinet University, Johannesburg, 2022">Multiple Tenable and Fortinet Certifications, Tenable University and Fortinet University, Johannesburg, 2022</li>
+            </ul>
+        </div>
+
+        <div class="section experience" data-section="work-experience">
+            <h2 class="title">Work Experience</h2>
+            <ul class="list-group">
+                <li class="list-group-item" data-item="Cybersecurity Specialist: Pre-Sales, Vox Telecom, Johannesburg, Gauteng (2022-04 - Current)">Cybersecurity Specialist: Pre-Sales, Vox Telecom, Johannesburg, Gauteng (2022-04 - Current)</li>
+                <li class="list-group-item" data-item="Cybersecurity Analyst, F-SI, Johannesburg, Gauteng (2021-07 - 2022-03)">Cybersecurity Analyst, F-SI, Johannesburg, Gauteng (2021-07 - 2022-03)</li>
+                <li class="list-group-item" data-item="Account Manager, Synchramed, Johannesburg, Gauteng (2020-07 - 2020-12)">Account Manager, Synchramed, Johannesburg, Gauteng (2020-07 - 2020-12)</li>
+                <li class="list-group-item" data-item="Key Account Manager, Experian, Durban, KwaZulu Natal (2018-06 - 2020-06)">Key Account Manager, Experian, Durban, KwaZulu Natal (2018-06 - 2020-06)</li>
+                <li class="list-group-item" data-item="Sales & Customer Relations Executive, EMD Technologies, Durban, South Africa (2016-08 - 2018-05)">Sales & Customer Relations Executive, EMD Technologies, Durban, South Africa (2016-08 - 2018-05)</li>
+                <li class="list-group-item" data-item="Technical Support- Intern, DRS Technologies, Johannesburg, Gauteng (2008-07 - 2009-07)">Technical Support- Intern, DRS Technologies, Johannesburg, Gauteng (2008-07 - 2009-07)</li>
+            </ul>
+        </div>
+
+        <div class="section contact">
+            <h2 class="title">Search My CV</h2>
+            <form id="searchForm" class="form-inline">
+                <input type="text" id="searchQuery" name="query" placeholder="Search..." class="form-control mr-2">
+                <input type="submit" value="Search" class="btn btn-primary">
+            </form>
+            <div id="searchResults" class="mt-3"></div>
+        </div>
+
+        <div class="section contact">
+            <h2 class="title">Contact Me</h2>
+            <form action="/submit_feedback" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" class="form-control"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="btn btn-success">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var query = document.getElementById('searchQuery').value.toLowerCase();
+            var results = [];
+            
+            // Search in all sections and list items
+            document.querySelectorAll('[data-section], [data-item]').forEach(function(element) {
+                var text = element.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    results.push(element.outerHTML);
+                }
+            });
+            
+            // Display search results
+            var searchResults = document.getElementById('searchResults');
+            searchResults.innerHTML = results.length ? results.join('') : '<p>No results found.</p>';
+        });
+    </script>
+</body>
+</html>
