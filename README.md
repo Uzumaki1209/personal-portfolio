@@ -1,45 +1,78 @@
+
 # Personal Portfolio - Kevin Pather
 
-Welcome to my personal portfolio repository. This repository showcases my skills, experience, and projects in the field of Cybersecurity.
+Welcome to my personal portfolio project. This repository contains the code for a personal portfolio website that showcases my skills, experience, and projects in the field of Cybersecurity.
 
 ## Table of Contents
-- [About](#about)
-- [Skills and Competencies](#skills-and-competencies)
-- [Education](#education)
-- [Work Experience](#work-experience)
-- [Contact Me](#contact-me)
 
-## About
-Motivated and detail-oriented Cyber Security Pre-sales consultant with over 4 years of experience in vulnerability assessment, compliance scanning, and cybersecurity threat mitigation.
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Credits](#credits)
+- [Contact Information](#contact-information)
 
-## Skills and Competencies
-- Designing security controls
-- Expertise in vulnerability assessment tools (Nexpose, Nessus)
-- Developing security plans
-- Data security
-- Analytical and Critical Thinking
-- Cultural Awareness
-- Multitasking Abilities
-- Implementing security programs
+## Description
 
-## Education
-- Matriculation / Grade 12, Sandown High, Johannesburg, 2008
-- Business Management Certificate, Damelin, Gauteng, 2014
-- CompTIA Security+, IT Academy, Johannesburg, 2021
-- CompTIA Cybersecurity Analyst+, IT Academy, Johannesburg, 2021
-- AWS Certified Solutions Architect Associate, IT Academy, Johannesburg, 2021
-- Certified Information Systems Security Professional (CISSP), IT Academy, Johannesburg, 2022-2023
-- Multiple Tenable and Fortinet Certifications, Tenable University and Fortinet University, Johannesburg, 2022
+The **Personal Portfolio** website is a single-page application designed to provide a comprehensive overview of my professional background. It includes sections for a biography, skills and competencies, education, work experience, and contact information. The website is fully responsive and built using HTML and CSS.
 
-## Work Experience
-- Cybersecurity Specialist: Pre-Sales, Vox Telecom, Johannesburg, Gauteng (2022-04 - Current)
-- Cybersecurity Analyst, F-SI, Johannesburg, Gauteng (2021-07 - 2022-03)
-- Account Manager, Synchramed, Johannesburg, Gauteng (2020-07 - 2020-12)
-- Key Account Manager, Experian, Durban, KwaZulu Natal (2018-06 - 2020-06)
-- Sales & Customer Relations Executive, EMD Technologies, Durban, South Africa (2016-08 - 2018-05)
-- Technical Support- Intern, DRS Technologies, Johannesburg, Gauteng (2008-07 - 2009-07)
+### Features
 
-## Contact Me
+- **Bio**: A brief introduction to who I am and my professional journey.
+- **Skills and Competencies**: A list of my technical skills and soft skills.
+- **Education**: Details of my academic background and certifications.
+- **Work Experience**: A timeline of my professional experience in various roles.
+- **Contact Form**: A simple form for visitors to get in touch with me.
+
+## Installation
+
+To set up this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Uzumaki1209/personal-portfolio
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd personal-portfolio
+   ```
+
+3. **Open `index.html` in your web browser**:
+   - Simply double-click the `index.html` file, or right-click and select "Open with" -> "Browser Name".
+
+## Usage
+
+To use the website:
+
+- Navigate through different sections using the provided links.
+- Use the contact form to send messages directly from the website.
+- The search functionality allows you to search through the CV content.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature/YourFeature`).
+6. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Credits
+
+- **Kevin Pather** - [LinkedIn](https://www.linkedin.com/in/kevin-pather-02b933168/)
+- Built with HTML and CSS.
+
+## Contact Information
+
+For any questions or suggestions, feel free to contact me:
+
 - **Email**: tpather1@gmail.com
 - **Phone**: +27 83 230 1773
-- [LinkedIn Profile](https://www.linkedin.com/in/kevin-pather-02b933168/)
